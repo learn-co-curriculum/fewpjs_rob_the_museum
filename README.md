@@ -17,7 +17,7 @@ commit.
 
 To start gathering information about your upcoming art heist, you will need to
 import your data from the `art_heist.csv` spreadsheet. Inside the
-`lib/museum.rb` file you will see a method called `new_from_csv`. In this
+`lib/museum.js` file you will see a method called `new_from_csv`. In this
 method you should load up the [CSV][] file and save it to a variable where the
 data can be used in other methods.
 
@@ -40,10 +40,7 @@ arrive at the correct answers, how you build your methods is up to you!
 Remember to research the built in methods along the way - they will make your
 research on robbing the museum a lot quicker.
 
-To help you test your methods as you build them, a file `bin/case_museum.rb` is
-provided. This file loads up `lib/museum.rb`, creates an instance of the
-`Museum` class, then opens pry. Feel free to modify this this file to test
-method behavior as you write your solution. Run `learn` to see your progress.
+Run `learn` to see your progress.
 
 ### Museum Class
 
